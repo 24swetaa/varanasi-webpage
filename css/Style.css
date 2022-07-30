@@ -1,0 +1,179 @@
+
+
+html, body {
+    margin:0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* classes */
+
+:root{
+    /* theme colours */
+    --text-gray:#D10048;
+    --text-light:#F27778;
+    --bg-colour:black;
+    --white: white;
+    --midnight:#113355;
+
+    /* gradient colour */
+    --sky: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto Condensed';
+    color: var(--text-gray);
+}
+.flex-row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: 'Roboto Condensed';
+    font-size: 2.5rem;
+    
+}
+h4{
+    font-family: 'Roboto Condensed';
+    font-size: 2.5rem;
+    padding-left: 480px;
+}
+h2{
+    font-family: 'Roboto Condensed';
+}
+
+h5{
+    font-family: 'Edu VIC WA NT Beginner';
+    font-size: 1.5rem;
+    padding-left: 1080px;
+}
+
+h3{
+    font-family: 'Roboto Condensed';
+    font-size: 1.3rem;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed';
+    cursor: pointer;
+}
+/* classes */
+
+/* navigation */
+.nav{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 15vh;
+    overflow: hidden;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+    
+    display:flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link {
+    padding: 2rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: var(--text-light);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
+}
+
+.nav .nav-brand a{
+    font-size: 2rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: 'Edu VIC WA NT Beginner';
+
+}
+/* navigation */
+
+/* main content */
+/* site title */
+
+
+main .site-title{
+    background: url('../assets/bgff.png');
+    background-size: cover;
+    height:110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align:center;
+    color: var(--white);
+}
+
+main .site-title h1, h3{
+    margin: 0.5rem;
+}
+
+main .site-title .btn{
+    margin: 1.8rem;
+    background: var(--sky);
+}
+
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+/* X site title X */
+/* X main content X*/
+
+/*  pictures*/
+
+#menu{
+    margin: 34px;
+    display: flex;
+}
+
+#menu .box{
+    border: 1px solid var(--text-gray);
+    padding: 30px;
+    /* margin: 20px 50px; */
+    border-radius: 28px;
+    margin: 1.8rem;
+    background: var(--sky);
+    margin-bottom: 20px;
+}
+
+#menu .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+#menu .box p{
+    font-family: 'Roboto Condensed';
+}
+#menu .box:hover{
+    background: transparent;
+    border: 1px solid var(--black);
+    color: var(--black);
+}
